@@ -40,3 +40,12 @@ h1 {
 #failed {
   color: lightcoral;
 }
+
+.gotogame {
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 10px;
+  background-color: lightcoral;
+  text-decoration: none;
+}
