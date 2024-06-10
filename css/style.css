@@ -42,6 +42,8 @@ h1 {
 }
 
 .gotogame {
+  margin-top: 20px;
+  display: block;
   color: #fff;
   font-weight: 700;
   text-transform: uppercase;

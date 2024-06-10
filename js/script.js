@@ -38,8 +38,6 @@ checkButton.addEventListener("click", function () {
     if (mailList[i] === userEmailValue) {
       //quando l'email è stata trovata email found diventa true
       emailFound = true;
-      //quin interrompo il ciclo quando è stata trovata per evitare calcoli inutili
-      break;
     }
   }
   //se l'email è nella lista stampa sia in console che nello schermo che è nella lista
