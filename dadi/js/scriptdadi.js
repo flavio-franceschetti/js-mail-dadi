@@ -27,8 +27,8 @@ playButton.addEventListener("click", function () {
   }
 
   //scrivo il risultato pc in html
-  pcScoreInner.innerHTML = "Pc score: " + pcScore;
+  pcScoreInner.innerHTML = "PC SCORE: " + pcScore;
   //scrivo il risultao user sull html
-  userScoreInner.innerHTML = "User Score: " + userScore;
+  userScoreInner.innerHTML = "USER SCORE: " + userScore;
   //scrivo il risultato nell html
 });

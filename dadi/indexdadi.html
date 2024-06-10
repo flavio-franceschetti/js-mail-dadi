@@ -3,15 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/dadistyle.css" />
 
     <title>Gioco dei dadi</title>
   </head>
   <body>
     <div class="container">
+      <h1>GIOCO DEI DADI</h1>
       <button id="playButton">GIOCA</button>
-      <div id="pcScore"></div>
-      <div id="userScore"></div>
-      <div id="result"></div>
+      <div class="scores">
+        <span id="pcScore">PC SCORE</span>
+        <span id="userScore">USER SCORE</span>
+      </div>
+      <div id="result">RESULT</div>
     </div>
     <!-- JS -->
     <script type="text/javascript" src="js/scriptdadi.js"></script>
