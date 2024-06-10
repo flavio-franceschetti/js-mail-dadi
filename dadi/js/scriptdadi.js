@@ -7,10 +7,10 @@ const result = document.getElementById("result");
 playButton.addEventListener("click", function () {
   //genero dei numeri casuali da 1 a 6 per il pc
   let pcScore = Math.floor(Math.random() * 6) + 1;
-  console.log("Pc Score: " + pcScore);
+  console.log("Pc Score:", pcScore);
   //genero dei numeri casuali da 1 a 6 per l'user
   let userScore = Math.floor(Math.random() * 6) + 1;
-  console.log("User score: " + userScore);
+  console.log("User score:", userScore);
   // creo le condizioni dove
   if (userScore > pcScore) {
     //se il punteggio dell'user è maggiore del punteggio del pc vince user
@@ -29,6 +29,6 @@ playButton.addEventListener("click", function () {
   //scrivo il risultato pc in html
   pcScoreInner.innerHTML = "Pc score: " + pcScore;
   //scrivo il risultao user sull html
-  userScoreInner.innerHTML = "UserScore: " + userScore;
+  userScoreInner.innerHTML = "User Score: " + userScore;
   //scrivo il risultato nell html
 });
